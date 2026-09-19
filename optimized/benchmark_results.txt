@@ -1,0 +1,63 @@
+WEEK 4 PERFORMANCE OPTIMIZATION
+================================
+
+Project: Student Marks Analytics & Report Generator
+
+BASELINE PERFORMANCE
+--------------------
+Dataset Size: 10,000 students
+Total Marks Processed: 50,000
+
+Original Execution Time: 1.102400 seconds
+Original cProfile Time: 1.104 seconds
+Original Function Calls: 35,789
+
+Main Bottleneck:
+find_top_students()
+
+Cumulative Time:
+1.083 seconds
+
+OPTIMIZED PERFORMANCE
+---------------------
+Dataset Size: 10,000 students
+Total Marks Processed: 50,000
+
+Optimized Execution Time: 0.042516 seconds
+Optimized cProfile Time: 0.043 seconds
+Optimized Function Calls: 115,793
+
+Main Optimized Function:
+find_top_students()
+
+Optimized Cumulative Time:
+0.012 seconds
+
+PERFORMANCE COMPARISON
+----------------------
+Original Time: 1.102400 seconds
+Optimized Time: 0.042516 seconds
+
+Time Saved: 1.059884 seconds
+
+Performance Improvement: 96.14%
+
+Speedup: approximately 25.93x
+
+FUNCTIONALITY VERIFICATION
+--------------------------
+Original Total Students: 10,000
+Optimized Total Students: 10,000
+
+Original Total Marks: 50,000
+Optimized Total Marks: 50,000
+
+Original Overall Average: 80.70
+Optimized Overall Average: 80.70
+
+Original Students Above Threshold: 5,771
+Optimized Students Above Threshold: 5,771
+
+Result:
+The optimized application produces the same functional results
+while significantly reducing execution time.
